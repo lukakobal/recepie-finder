@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 15px;
+  margin-left: 5px;
+  background: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #218838;
+}
+
+#results {
+  margin-top: 20px;
+}
+
+.meal {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 20px;
+  background: #fff;
+}
+
+.meal img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.instructions {
+  text-align: left;
+  margin-top: 10px;
+  line-height: 1.5;
+  white-space: pre-line; /* ohrani nove vrstice iz API-ja */
+}
